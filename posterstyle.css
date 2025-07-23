@@ -1,0 +1,101 @@
+#poster1 .profile-pic {
+  width: 90000px; /* Bigger image size */
+  margin-left: 10px; /* Keeps left alignment consistent */
+  margin-top: 50px;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#poster1 .profile-pic:hover {
+  transform: scale(1.08); /* Adds hover zoom */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+.profile-pic {
+  width: 80px; /* smaller image like icon */
+  height: 80px;
+  object-fit: cover;
+  border: none;
+  border-radius: 50%; /* circle icon look */
+  /*border: 2px solid #000000;Border line*/
+}
+
+.creative-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 60px 30px;
+  background: #fff;
+  gap: 50px;
+}
+
+.design-image img,
+.left-container img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.left-container,
+.right-container {
+  width: 100%;
+  max-width: 500px;
+}
+.right-container {
+  font-family: "Kantumruy Pro";
+  /*Change Right Container*/
+  background: #f0f0f0; /*Change Right Container Backgroud color*/
+  border-radius: 15px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.016);
+  padding: 20px;
+  color: #000000; /*Change Right Container Text*/
+}
+
+.right-container .description {
+  margin-bottom: 10px; /* Adds spacing before the <ul> */
+}
+
+.right-container ul {
+  margin-top: 0; /* Removes default extra space */
+  padding-left: 0; /* Aligns perfectly with <p> if needed */
+  list-style-position: inside;
+}
+.description {
+  font-family: "Kantumruy Pro", sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.image-caption {
+  font-family: "Kantumruy Pro";
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 60px;
+  color: #333;
+}
+.image-caption-a {
+  font-family: "Kantumruy Pro";
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 35px;
+  color: #333;
+}
+.custom-hover-link {
+  color: #f1c40f;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.custom-hover-link:hover {
+  color: rgb(0, 0, 0);
+}

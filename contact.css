@@ -1,0 +1,113 @@
+body {
+  font-family: "kamt", sans-serif;
+  background-color: #ffffff; /* You can change this to 'transparent' if needed */
+  margin: 0;
+  padding: 0;
+}
+
+.contact-section {
+  padding: 50px 20px;
+  /* Removed background-color and box-shadow */
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  /* Removed background-color and box-shadow */
+}
+
+.contact-section h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.subheading {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.contact-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 1 1 30%;
+  background-color: #ffffff;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.414);
+}
+
+.card:hover {
+  background-color: #000000;
+}
+.card:hover h3,
+.card:hover p,
+.card:hover a {
+  color: #ffffff;
+}
+
+.card i {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #ffcc02;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #ffcc02;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #d3a900;
+}
+
+.footer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.footer a {
+  color: #0078d4;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .contact-cards {
+    flex-direction: column;
+  }
+
+  .card {
+    flex: 1 1 100%;
+  }
+}

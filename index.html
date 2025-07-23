@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Phea IT Design</title>
+
+    <!--<link rel="stylesheet" href="/css/style.css" />-->
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/profile.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/search.css" />
+    <link rel="stylesheet" href="../css/poster.css" />
+    <link rel="stylesheet" href="../css/priceplan.css" />
+    <link rel="stylesheet" href="../css/feedback.css" />
+    <link rel="stylesheet" href="../css/member.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+
+    <!-- English Font (e.g., Poppins or Noto Sans) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro&family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Khmer Font: Kantumruy Pro -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro&display=swap&subset=khmer"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nokora&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="../image/logo1.png" type="image/png" />
+
+    <!--Header-->
+  </head>
+  <body>
+    <div id="home"></div>
+    <!--Home Page-->
+
+    <section class="sticky-wrapper">
+      <header>
+        <div class="logo">
+          <img src="../image/logo.png" alt="Phea IT Design Logo" />
+          <span class="brand-name">Phea IT Design</span>
+        </div>
+
+        <div class="auth">
+          <a href="#">Log In</a>
+          <a href="#">Sign Up</a>
+        </div>
+      </header>
+
+      <!--NavBar-->
+      <nav>
+        <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+        <ul class="nav-menu">
+          <!-- Home on left -->
+          <li class="left-item">
+            <a href="#home"><i class="bi bi-house-door-fill"></i> Home</a>
+          </li>
+
+          <!-- Right items -->
+          <div class="right-group">
+            <li class="dropdown">
+              <a href="#">Services</a>
+              <ul class="dropdown-menu">
+                <li><a href="./service.html#poster">Poster</a></li>
+                <li><a href="./service.html#logo">Logo</a></li>
+                <li><a href="./service.html#menu">Menu</a></li>
+                <li><a href="#">Video</a></li>
+                <li><a href="./service.html#id-card">ID Card</a></li>
+                <li><a href="./service.html#font">Font Khmer</a></li>
+              </ul>
+            </li>
+
+            <li><a href="./about_us.html">About</a></li>
+            <li><a href="./download.html">Download</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </div>
+        </ul>
+      </nav>
+    </section>
+
+    <!--Search-->
+    <div class="search-wrapper">
+      <div class="modern-search">
+        <input type="text" placeholder="Search" />
+        <span class="divider">|</span>
+        <button><i class="bi bi-search"></i></button>
+      </div>
+    </div>
+
+    <!--Profile-->
+
+    <section class="creative-section" id="creative">
+      <div class="left-container">
+        <div class="profile-container">
+          <!-- Profile picture -->
+          <img
+            src="../image/PG.png"
+            alt="Mr. Phea Barang"
+            class="profile-pic"
+          />
+          <h2 class="image-caption">Mr. Phea Barang</h2>
+          <p>IT Graphic Design</p>
+        </div>
+      </div>
+
+      <div class="right-container">
+        <!-- ✏️ Article-style paragraph -->
+        <p class="description">
+          សិល្បៈរចនា (Design) គឺជាការប្រើប្រាស់ ទំនុកចិត្តនិងចំណេះដឹងខាងសិល្បៈ
+          ដើម្បីសម្រេចបេសកកម្មជាក់លាក់មួយ។ មនុស្សដែលអាចអភិវឌ្ឍន៍គំនិតថ្មីៗ
+          ទាក់ទងនឹងការរចនា និងសម្របសម្រួលនូវគំនិតទាំងនោះ
+          ដើម្បីបង្កើតអ្វីមួយឲ្យមានប្រយោជន៍ប្រសើរ សមរម្យ និងអាចដំណើរការបាន។
+        </p>
+
+        <!-- ✅ Skill checklist -->
+        <ul class="checklist">
+          <li>
+            <i class="bi bi-check2-circle check-icon"></i>
+            ការរចនាអក្សរ (Typography)
+          </li>
+          <li>
+            <i class="bi bi-check2-circle check-icon"></i>
+            ការរចនាគេហទំព័រ (UI/UX)
+          </li>
+          <li>
+            <i class="bi bi-check2-circle check-icon"></i>
+            ការរចនាផ្ទាំងផ្សព្វផ្សាយ (Poster/Branding)
+          </li>
+          <li>
+            <i class="bi bi-check2-circle check-icon"></i>
+            ការរចនាក្បាច់រចនាខ្មែរ (Khmer Ornament Design)
+          </li>
+        </ul>
+
+        <h2>DESIGN</h2>
+        <p class="subtitle">With Crew and</p>
+        <h2>Mr. Phea Barang</h2>
+      </div>
+    </section>
+    <br />
+    <br />
+
+    <!--Poster Section-->
+
+    <section class="portfolio-section" id="poster">
+      <h2 class="section-title">Poster</h2>
+
+      <div class="work-grid">
+        <a href="poster1.html" class="work-card">
+          <img src="../image/P1.png" alt="Design Sample 1" />
+          <h4>My Best Work</h4>
+          <p></p>
+        </a>
+
+        <a href="poster2.html" class="work-card">
+          <img src="../image/P2.png" alt="Design Sample 2" />
+          <h4>My Best Work</h4>
+          <p></p>
+        </a>
+
+        <a href="poster3.html" class="work-card">
+          <img src="../image/image.png" alt="Design Sample 3" />
+          <h4>My Best Work</h4>
+          <p></p>
+        </a>
+
+        <a href="poster4.html" class="work-card">
+          <img src="../image/P4.png" alt="Design Sample 4" />
+          <h4>My Best Work</h4>
+          <p></p>
+        </a>
+      </div>
+    </section>
+    <br />
+    <br />
+    <br />
+    <!-- pricing plans -->
+    <section id="pricing" class="bg-light mt-5">
+      <div class="container-lg poster-layout">
+        <div class="text-center mb-5">
+          <h2 class="section-title">Pricing Plans</h2>
+          <p class="lead text-muted">Choose a pricing plan to suit you.</p>
+        </div>
+        <br />
+        <div class="card-wrapper">
+          <!-- Starter Card -->
+          <div class="pricing-card">
+            <h4>Starter Edition</h4>
+            <p class="card-subtitle">Poster only</p>
+            <p class="price">$15</p>
+            <a href="contact.html" class="buy-btn">Get Now</a>
+          </div>
+
+          <!-- Complete Card -->
+          <div class="pricing-card popular-card">
+            <h4>Complete Edition</h4>
+            <p class="card-subtitle">eBook + Updates</p>
+            <p class="price">$250</p>
+            <a href="contact.html" class="buy-btn">Get Now</a>
+          </div>
+
+          <!-- Ultimate Card -->
+          <div class="pricing-card">
+            <h4>Ultimate Edition</h4>
+            <p class="card-subtitle">Full Pack</p>
+            <p class="price">$300</p>
+            <a href="contact.html" class="buy-btn">Get Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <br />
+
+    <!-- Feedback Section -->
+    <h2 class="section-title">Feedback</h2>
+
+    <!-- Feedback Section -->
+    <section class="creative-section-1 feedback-section">
+      <!-- Left: 2x2 Feedback Images -->
+      <div class="left-container-1">
+        <div class="feedback-grid-mini">
+          <!-- Image 1 -->
+          <div class="feedback-item">
+            <img src="../image/P1.png" alt="Feedback 1" />
+            <div class="rating-box">
+              <div class="rating-stars text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <p class="rating-text">4.5 stars</p>
+            </div>
+          </div>
+
+          <!-- Image 2 -->
+          <div class="feedback-item">
+            <img src="../image/palette.jpg" alt="Feedback 2" />
+            <div class="rating-box">
+              <div class="rating-stars text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+              </div>
+              <p class="rating-text">4.0 stars</p>
+            </div>
+          </div>
+
+          <!-- Image 3 -->
+          <div class="feedback-item">
+            <img src="../image/logodes.jpg" alt="Feedback 3" />
+            <div class="rating-box">
+              <div class="rating-stars text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star"></i>
+              </div>
+              <p class="rating-text">3.5 stars</p>
+            </div>
+          </div>
+
+          <!-- Image 4 -->
+          <div class="feedback-item">
+            <img src="../image/map.jpg" alt="Feedback 4" />
+            <div class="rating-box">
+              <div class="rating-stars text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+              </div>
+              <p class="rating-text">3.0 stars</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Description + 2 Small Images -->
+      <div class="right-container-1">
+        <h2 class="from-me">ពីខ្ញុំបាទ ភា បារាំង</h2>
+        <p class="description-1">
+          ជាដំបូងខ្ញុំបាទក៏សូមគោរពអរគុណយ៉ាងជ្រាលជ្រៅចំពោះការជួយគាំទ្រ
+          និងការឧបត្ថម្ភដ៏មានតម្លៃរបស់លោកអ្នកចំពោះអាជីវកម្ម ភា ឌីហ្សាញរបស់ខ្ញុំ
+          ។ ដែលជួយឲ្យអាជីវកម្មរបស់ខ្ញុំអាចរីកចម្រើន បន្តបង្កើត នូវស្នាដៃឌីហ្សាញ
+          ដែលមានគុណភាព និងមានអត្ថន័យចំពោះសង្គម ។
+          ពីខ្ញុំបាទសូមគោរពជូនពរទៅដល់អាជីវកម្មទាំងអស់គ្នាប្រកបដោយសុភាព
+          ល្អសិរីសួស្តី ជ័យមង្គល វិបុលសុខ រកទទួលទានមានបាន មានសុខវត្តិភាព
+          ជៀសឆ្ញាយពីជំជឺកាចសាហាវ និងជោគជ័យគ្រប់ការងារទាំងអស់គ្នា
+        </p>
+
+        <div class="right-images-1">
+          <img src="../image/paydollar.png" alt="Right Image 1" />
+          <img src="../image/pay.png" alt="Right Image 2" />
+        </div>
+        <div class="thank">សូមអរគុណ</div>
+      </div>
+    </section>
+    <br />
+    <br />
+    <!-- Meet Member -->
+
+    <section class="member" id="member">
+      <h2 class="member-title">Our Team</h2>
+      <p class="member-subtitle">
+        We strive to do everything so that you can comfortably and productively
+        work in our space and create amazing products and services
+      </p>
+
+      <div class="member-container">
+        <!-- Card 1 -->
+        <div class="member-card">
+          <img src="../image/pf2.png" alt="Korn Koemyan" />
+          <h3>Korn Koemyan</h3>
+          <p>Graphic Video</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/share/16tr1e71L9/" target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="https://t.me/pheakh_graphic" target="_blank"
+              ><i class="bi bi-telegram"></i
+            ></a>
+            <a href="https://instagram.com/username" target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="https://wa.me//+855965258261" target="_blank"
+              ><i class="bi bi-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="member-card">
+          <img src="../image/PG.png" alt="Phea Barang" />
+          <h3>Phea Barang</h3>
+          <p>IT Graphic Design</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/share/16tr1e71L9/" target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="https://t.me/pheakh_graphic" target="_blank"
+              ><i class="bi bi-telegram"></i
+            ></a>
+            <a href="https://instagram.com/barang.phea" target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="https://wa.me//+855965258261" target="_blank"
+              ><i class="bi bi-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="member-card">
+          <img src="../image/pf3.png" alt="Sae Thengy" />
+          <h3>Sae Thengy</h3>
+          <p>Videographer</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/share/16tr1e71L9/" target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="https://t.me/pheakh_graphic" target="_blank"
+              ><i class="bi bi-telegram"></i
+            ></a>
+            <a href="https://instagram.com/barang.phea" target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="https://wa.me//+855965258261" target="_blank"
+              ><i class="bi bi-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+        <!-- Card 4  -->
+        <div class="member-card">
+          <img src="../image/PV.png" alt="Phea Vandy" />
+          <h3>Phea Vandy</h3>
+          <p>Print Specialist</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/share/16tr1e71L9/" target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="https://t.me/pheakh_graphic" target="_blank"
+              ><i class="bi bi-telegram"></i
+            ></a>
+            <a href="https://instagram.com/barang.phea" target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="https://wa.me//+855965258261" target="_blank"
+              ><i class="bi bi-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <br />
+    <br />
+    <!--Footer-->
+    <footer class="custom-footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>Phea IT Design</h3>
+          <p>Creative digital solutions that connect ideas and design.</p>
+          <div class="footer-icons">
+            <a href="https://www.facebook.com/share/16tr1e71L9/"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="https://instagram.com/barang.phea"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="https://wa.me//+855965258261"
+              ><i class="bi bi-whatsapp"></i
+            ></a>
+            <a href="https://t.me/pheakh_graphic" target="_blank"
+              ><i class="bi bi-telegram"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h4>Our Company</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i><a href="#home">Home</a></li>
+            <li>
+              <i class="bi bi-chevron-right"></i
+              ><a href="service.html">Services</a>
+            </li>
+            <li>
+              <i class="bi bi-chevron-right"></i
+              ><a href="about_us.html">About Us</a>
+            </li>
+            <li>
+              <i class="bi bi-chevron-right"></i
+              ><a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Support</h4>
+          <ul>
+            <li>
+              <i class="bi bi-chevron-right"></i><a href="terms.html">FAQs</a>
+            </li>
+            <li>
+              <i class="bi bi-chevron-right"></i
+              ><a href="terms.html">Privacy</a>
+            </li>
+            <li>
+              <i class="bi bi-chevron-right"></i><a href="terms.html">Terms</a>
+            </li>
+            <li>
+              <i class="bi bi-chevron-right"></i><a href="#member">Help Desk</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <div class="contact-info">
+            <p><i class="bi bi-telephone-fill"></i> 096 525 8261</p>
+            <p><i class="bi bi-envelope-fill"></i> pheabarang168@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Phea IT Design. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="../script/script.js"></script>
+</html>

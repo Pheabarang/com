@@ -1,0 +1,139 @@
+body {
+  background: rgb(255, 255, 255);
+}
+
+.poster-1 {
+  margin: 0 auto;
+  padding: 0;
+  width: 100vw;
+  max-width: 1100px;
+  font-family: "Kantumruy Pro", sans-serif;
+}
+
+.section-title-1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.section-description {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.portfolio-grid-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 30px;
+}
+
+#fontKhmerGrid {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-item,
+.portfolio-item-1 {
+  position: relative;
+  border: 3px solid transparent; /* thicker border base */
+  border-radius: 15px;
+  background: #f0f0f0;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  transform: scale(0.95);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.portfolio-item:hover,
+.portfolio-item-1:hover {
+  border-color: #f1c40f;
+  box-shadow: 0 0 12px 3px rgba(241, 196, 15, 0.45); /* smaller, gentler glow */
+  transform: translateY(-6px);
+}
+
+.portfolio-item img,
+.portfolio-item-1 img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 0;
+}
+
+/*
+.portfolio-grid-1 > a:first-child {
+  border-left: none;
+}
+
+.portfolio-grid-1 > a:last-child {
+  border-right: none;
+}*/
+
+/*Menu*/
+#menuGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+  grid-template-rows: repeat(2, auto); /* 2 rows based on content */
+  gap: 30px;
+  justify-content: center; /* center grid in container */
+  padding: 20px;
+  max-width: 1200px; /* keeps grid nicely balanced */
+  margin: 0 auto; /* centers on page */
+}
+
+#menuGrid .portfolio-item {
+  width: 360px;
+  padding: 15px;
+  background: #f0f0f0ff;
+  border-radius: 16px;
+  border: 3px solid transparent;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#menuGrid .portfolio-item:hover {
+  border-color: #f1c40f;
+  box-shadow: 0 0 20px 6px rgba(241, 196, 15, 0.5);
+  transform: translateY(-6px);
+}
+#menuGrid .portfolio-item img {
+  height: 500px; /* adjust to your preferred height */
+  width: 100%;
+  object-fit: cover;
+}
+
+/*ID-Card*/
+#idCardGrid {
+  display: flex;
+  flex-direction: column; /* stacks items vertically */
+  gap: 30px;
+  align-items: center; /* centers the cards */
+}
+/* Individual card size */
+#idCardGrid .portfolio-item {
+  width: 60%; /* fixed width for each card */
+  padding: 15px;
+}
+
+/* Image size inside ID cards */
+#idCardGrid .portfolio-item img {
+  width: 595px;
+  height: 250px; /* adjust height to fit proportionally */
+  object-fit: cover;
+  border-radius: 16px;
+}

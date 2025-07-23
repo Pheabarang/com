@@ -1,0 +1,118 @@
+/* Main Flex Container */
+body {
+  background: #ffffff;
+  font-family: "Kantumruy Pro", sans-serif;
+}
+
+.creative-section-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px; /* spacing between left and right */
+  padding: 60px 30px;
+  background: #ffffff;
+}
+
+/* Left Container: 2x2 grid */
+.left-container-1 {
+  width: 100%;
+  margin-right: 210px;
+  max-width: 320px;
+  background: none;
+}
+
+/* Grid inside Left */
+.feedback-grid-mini {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+/* Poster Images with Hover Effect */
+.feedback-grid-mini img {
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.245);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  cursor: pointer;
+}
+
+.feedback-grid-mini img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+}
+
+/* Right Container */
+.right-container-1 {
+  margin-left: 30px;
+  width: 500px;
+  max-width: 100%;
+  min-width: 200px;
+  height: 100%;
+  font-family: "Kantumruy Pro", sans-serif;
+  position: relative;
+  border-radius: 15px;
+  padding: 20px;
+  color: #000000;
+  background-color: #ffffff;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.262);
+}
+
+/* Text Description */
+.description-1 {
+  margin-top: 15px;
+  font-weight: bolder;
+  font-family: "Kantumruy Pro", sans-serif;
+  font-size: 1.1rem;
+  color: #000000;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Additional Images under text */
+.right-images-1 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.right-images-1 img {
+  width: 100%;
+  max-width: 180px;
+  height: 250px;
+  object-fit: cover;
+  /* Gold border */
+  border-radius: 10px; /* Optional: rounded corners */
+  box-shadow: 0 1px 15px rgba(195, 151, 6, 0.082); /* Optional: soft shadow */
+}
+
+.from-me {
+  margin-left: 150px;
+}
+
+.thank {
+  margin-left: 180px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.left-container,
+.right-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+.text-warning {
+  color: gold !important;
+}
+
+.rating-text {
+  font-family: Arial, sans-serif;
+}

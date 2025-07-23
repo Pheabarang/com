@@ -1,0 +1,202 @@
+.download-section {
+  margin: 0 auto;
+  padding: 0;
+  width: 100vw;
+  max-width: 1100px;
+  font-family: "Kantumruy Pro", sans-serif;
+}
+
+.download-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.section-description {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.download-scroll {
+  overflow-x: auto;
+}
+
+.download-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 30px;
+}
+
+.download-card {
+  position: relative;
+  border: 3px solid transparent;
+  border-radius: 15px;
+  background: #f0f0f0;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  transform: scale(0.95);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.download-card:hover {
+  border-color: #f1c40f;
+  box-shadow: 0 0 12px 3px rgba(241, 196, 15, 0.45);
+  transform: translateY(-6px);
+}
+
+.download-card img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 0;
+}
+.download-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.download-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background: white;
+}
+
+.download-card img {
+  width: 100%;
+  display: block;
+  border-radius: 15px;
+  height: auto;
+}
+
+/* Ribbons */
+.ribbon {
+  position: absolute;
+  top: 12px;
+  right: -40px;
+  transform: rotate(45deg);
+  width: 120px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  padding: 5px 0;
+  z-index: 10;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.ribbon.free {
+  background-color: #0fc8f1; /* gold */
+}
+
+.ribbon.paid {
+  background-color: crimson;
+}
+#kh1,
+#kh2,
+#kh3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  width: 320px; /* fixed smaller width */
+  max-width: 90%; /* responsive fallback */
+  text-align: center;
+  position: relative;
+  animation: scaleIn 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content img {
+  max-width: 100%;
+  max-height: 220px; /* smaller image height */
+  border-radius: 8px;
+  margin-bottom: 12px;
+  object-fit: contain;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.modal-buttons button {
+  padding: 10px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #f1c40f;
+  color: #000;
+  transition: background-color 0.3s;
+}
+
+.modal-buttons button:hover {
+  background-color: #d4ac0d;
+}
+
+.close {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: red;
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

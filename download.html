@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phea IT Design</title>
+    <link rel="stylesheet" href="../css/posterstyle.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/search.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/logo.css" />
+    <link rel="stylesheet" href="../css/download.css" />
+
+    <link rel="stylesheet" href="../css/menu.css" />
+    <link rel="icon" href="../image/logo1.png" type="image/png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro&family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Khmer Font: Kantumruy Pro -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro&display=swap&subset=khmer"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nokora&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div id="home"></div>
+    <!--Home Page-->
+
+    <section class="sticky-wrapper">
+      <header>
+        <div class="logo">
+          <img src="../image/logo.png" alt="Phea IT Design Logo" />
+          <span class="brand-name">Phea IT Design</span>
+        </div>
+
+        <div class="auth">
+          <a href="#">Log In</a>
+          <a href="#">Sign Up</a>
+        </div>
+      </header>
+
+      <!--NavBar-->
+      <nav>
+        <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+        <ul class="nav-menu">
+          <!-- Home on left -->
+          <li class="left-item">
+            <a href="./index.html#home"
+              ><i class="bi bi-house-door-fill"></i> Home</a
+            >
+          </li>
+
+          <!-- Right items -->
+          <div class="right-group">
+            <li class="dropdown">
+              <a href="#">Services</a>
+              <ul class="dropdown-menu">
+                <li><a href="service.html#poster">Poster</a></li>
+                <li><a href="service.html#logo">Logo</a></li>
+                <li><a href="service.html#menu">Menu</a></li>
+                <li><a href="#">Video</a></li>
+                <li><a href="service.html#id-card">ID Card</a></li>
+                <li><a href="service.html#font">Font Khmer</a></li>
+              </ul>
+            </li>
+
+            <li><a href="./about_us.html">About</a></li>
+            <li><a href="./download.html">Download</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </div>
+        </ul>
+      </nav>
+    </section>
+    <!--Search-->
+    <div class="search-wrapper">
+      <div class="modern-search">
+        <input type="text" placeholder="Search" />
+        <span class="divider">|</span>
+        <button><i class="bi bi-search"></i></button>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <!-- Section : Download -->
+    <!-- Section Start -->
+    <section class="download-section" id="poster">
+      <h2 class="download-title">Download</h2>
+      <p class="section-description"></p>
+
+      <!-- Grid 1 -->
+      <div class="download-scroll">
+        <div class="download-grid" id="posterGrid">
+          <a
+            href="#"
+            class="download-card"
+            onclick="downloadAndGo(event, '../image/P1.png', 'terms.html')"
+          >
+            <div class="ribbon free">FREE</div>
+            <img src="../image/P1.png" alt="Poster Form 1" />
+          </a>
+          <a href="contact.html" class="download-card">
+            <div class="ribbon paid">PAID</div>
+            <img
+              src="../image/Khmer_SVG/Royal_Standard_of_the_King_of_Cambodia.png"
+              alt="Poster Form 2"
+              id="kh1"
+            />
+          </a>
+          <a
+            href="#"
+            class="download-card"
+            onclick="downloadAndGo(event, '../download_file/wat.rar', 'terms.html')"
+          >
+            <div class="ribbon free">FREE</div>
+            <img src="../image/wat/wat..jpg" alt="Poster Form 3" />
+          </a>
+          <a href="contact.html" class="download-card">
+            <div class="ribbon paid">PAID</div>
+            <img src="../image/kh_in_2/kh2.jpg" alt="Poster Form 4" />
+          </a>
+          <a
+            href="#"
+            class="download-card"
+            onclick="downloadAndGo(event, '../image/Pattern/patternblue.jpg', 'terms.html')"
+          >
+            <div class="ribbon free">FREE</div>
+            <img src="../image/Pattern/patternblue.jpg" alt="Poster Form 5" />
+          </a>
+          <a href="contact.html" class="download-card">
+            <div class="ribbon paid">PAID</div>
+            <img src="../image/logo/pkh-logo.jpg" alt="Poster Form 6" />
+          </a>
+          <a href="contact.html" class="download-card">
+            <div class="ribbon paid">PAID</div>
+            <img
+              src="../image/Khmer_SVG/Flag_of_Cambodia..png"
+              alt="Poster Form 7"
+              id="kh2"
+            />
+          </a>
+          <a href="contact.html" class="download-card">
+            <div class="ribbon paid">PAID</div>
+            <img
+              src="../image/Khmer_SVG/buddhism.png"
+              alt="Poster Form 8"
+              id="kh3"
+            />
+          </a>
+        </div>
+      </div>
+
+      <!-- Grid 2 -->
+      <div class="download-scroll">
+        <div class="download-grid" id="logoGrid">
+          <a
+            href="#"
+            class="download-card"
+            onclick="downloadAndGo(event, '../image/Kh_in/Kh_In_2.jpg', 'terms.html')"
+          >
+            <div class="ribbon free">FREE</div>
+            <img src="../image/Kh_in/Kh_In_2.jpg" alt="Poster Form 9" />
+          </a>
+          <a href="contact.html" class="download-card">
+            <div class="ribbon paid">PAID</div>
+            <img src="../image/logo/Arit_logo.jpg" alt="Poster Form 10" />
+          </a>
+          <a
+            href="#"
+            class="download-card"
+            onclick="downloadAndGo(event, '../image/Pattern/patternblack.jpg', 'terms.html')"
+          >
+            <div class="ribbon free">FREE</div>
+            <img src="../image/Pattern/patternblack.jpg" alt="Poster Form 11" />
+          </a>
+          <a href="contact.html" class="download-card">
+            <div class="ribbon paid">PAID</div>
+            <img src="../image/kh_in_2/kh.jpg" alt="Poster Form 12" />
+          </a>
+          <a
+            href="#"
+            class="download-card"
+            onclick="downloadAndGo(event, '../image/Pattern/patternred.jpg', 'terms.html')"
+          >
+            <div class="ribbon free">FREE</div>
+            <img src="../image/Pattern/patternred.jpg" alt="Poster Form 13" />
+          </a>
+          <a href="contact.html" class="download-card">
+            <div class="ribbon paid">PAID</div>
+            <img src="../image/logo/pkh2.jpg" alt="Poster Form 14" />
+          </a>
+          <a
+            href="#"
+            class="download-card"
+            onclick="downloadAndGo(event, '../image/Kh_in/Kh_In_1.jpg', 'terms.html')"
+          >
+            <div class="ribbon free">FREE</div>
+            <img src="../image/Kh_in/Kh_In_1.jpg" alt="Poster Form 15" />
+          </a>
+          <a href="contact.html" class="download-card">
+            <div class="ribbon paid">PAID</div>
+            <img src="../image/kh_in_2/kh_inv1.jpg" alt="Poster Form 16" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Grid 3 -->
+      <div class="download-scroll">
+        <div class="download-grid" id="logoGrid">
+          <a
+            href="#"
+            class="download-card"
+            onclick="downloadAndGo(event, '../image/Kh_in/Kh_In_4.jpg', 'terms.html')"
+          >
+            <div class="ribbon free">FREE</div>
+            <img src="../image/Kh_in/Kh_In_4.jpg" alt="Poster Form 17" />
+          </a>
+          <a href="contact.html" class="download-card">
+            <div class="ribbon paid">PAID</div>
+            <img src="../image/kh_in_2/kh_inv2.jpg" alt="Poster Form 18" />
+          </a>
+          <a
+            href="#"
+            class="download-card"
+            onclick="downloadAndGo(event, '../image/Pattern/patterngreen.jpg', 'terms.html')"
+          >
+            <div class="ribbon free">FREE</div>
+            <img src="../image/Pattern/patterngreen.jpg" alt="Poster Form 19" />
+          </a>
+          <a href="contact.html" class="download-card">
+            <div class="ribbon paid">PAID</div>
+            <img src="../image/kh_in_2/kh_line.jpg" alt="Poster Form 20" />
+          </a>
+          <a
+            href="#"
+            class="download-card"
+            onclick="downloadAndGo(event, '../image/Pattern/patternpurple.jpg', 'terms.html')"
+          >
+            <div class="ribbon free">FREE</div>
+            <img
+              src="../image/Pattern/patternpurple.jpg"
+              alt="Poster Form 21"
+            />
+          </a>
+          <a
+            href="#"
+            class="download-card"
+            onclick="downloadAndGo(event, '../image/Kh_in/Kh_In_3.jpg', 'terms.html')"
+          >
+            <div class="ribbon free">FREE</div>
+            <img src="../image/Kh_in/Kh_In_3.jpg" alt="Poster Form 22" />
+          </a>
+          <a
+            href="#"
+            class="download-card"
+            onclick="downloadAndGo(event, '../image/Kh_in/Kh_In_5.jpg', 'terms.html')"
+          >
+            <div class="ribbon free">FREE</div>
+            <img src="../image/Kh_in/Kh_In_5.jpg" alt="Poster Form 23" />
+          </a>
+          <a href="contact.html" class="download-card">
+            <div class="ribbon paid">PAID</div>
+            <img src="../image/kh_in_2/kh_star.jpg" alt="Poster Form 24" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <!--Footer-->
+    <footer class="custom-footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>Phea IT Design</h3>
+          <p>Creative digital solutions that connect ideas and design.</p>
+          <div class="footer-icons">
+            <a href="https://www.facebook.com/share/16tr1e71L9/"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="https://instagram.com/barang.phea"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="https://wa.me//+855965258261"
+              ><i class="bi bi-whatsapp"></i
+            ></a>
+            <a href="https://t.me/pheakh_graphic" target="_blank"
+              ><i class="bi bi-telegram"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h4>Our Company</h4>
+          <ul>
+            <li>
+              <i class="bi bi-chevron-right"></i
+              ><a href="./index.html#home">Home</a>
+            </li>
+            <li>
+              <i class="bi bi-chevron-right"></i
+              ><a href="service.html">Services</a>
+            </li>
+            <li>
+              <i class="bi bi-chevron-right"></i
+              ><a href="about_us.html">About Us</a>
+            </li>
+            <li>
+              <i class="bi bi-chevron-right"></i
+              ><a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Support</h4>
+          <ul>
+            <li>
+              <i class="bi bi-chevron-right"></i><a href="terms.html">FAQs</a>
+            </li>
+            <li>
+              <i class="bi bi-chevron-right"></i
+              ><a href="terms.html">Privacy</a>
+            </li>
+            <li>
+              <i class="bi bi-chevron-right"></i><a href="terms.html">Terms</a>
+            </li>
+            <li>
+              <i class="bi bi-chevron-right"></i
+              ><a href="./index.html#member">Help Desk</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <div class="contact-info">
+            <p><i class="bi bi-telephone-fill"></i> 096 525 8261</p>
+            <p><i class="bi bi-envelope-fill"></i> pheabarang168@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Phea IT Design. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="../script/scroll.js"></script>
+  <script src="../script/download.js"></script>
+</html>

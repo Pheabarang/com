@@ -1,0 +1,68 @@
+/* Navbar */
+
+/* Search Bar */
+
+/* Sections */
+
+/* Poster layout center style */
+
+/* Card container aligned like a poster row */
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1000px;
+  margin-top: 20px;
+}
+
+/* Each card styled as proper poster-like */
+.pricing-card {
+  width: 300px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.popular-card {
+  background-color: #ffffff;
+  box-shadow: 0 8px 30px rgb(255, 255, 255);
+  background-color: #ffffff;
+  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.2);
+  border: 3px solid #007bff; /* 👈 Blue outline */
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.card-subtitle {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-size: 2rem;
+  color: #007bff;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.buy-btn {
+  display: inline-block;
+  background: transparent;
+  color: #007bff;
+  border: 2px solid #007bff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.buy-btn:hover {
+  background: #007bff;
+  color: #fff;
+}

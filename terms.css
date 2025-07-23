@@ -1,0 +1,338 @@
+/* Global Fonts */
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* Section Title */
+.terms-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 30px;
+  color: #402929;
+}
+
+/* Section Container */
+.terms-section {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+/* Text Container */
+.terms-container {
+  width: 100%;
+  max-width: 550px;
+  background-color: #f0f0f0;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.325);
+  color: #000000;
+  font-family: "Kantumruy Pro", "Noto san";
+}
+
+/* Khmer and English Headings */
+.terms-heading-kh,
+.terms-heading-en {
+  font-family: "Kantumruy Pro", "Noto san";
+  margin-left: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Terms Paragraphs */
+.terms-description {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+Optional Decorative Classes .text-warning {
+  color: gold !important;
+}
+
+.rating-text {
+  font-family: Arial, sans-serif;
+}
+.terms-heading-kh,
+.terms-heading-en {
+  background-color: gold;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 8px;
+  display: block; /* Make it take full line so text-align works */
+  text-align: center;
+  margin: 0 auto;
+  width: fit-content; /* Only shrink to fit the content */
+}
+/*
+@keyframes pulse-gold {
+  0% {
+    box-shadow: 0 0 5px gold, 0 0 10px #ffcc00, 0 0 15px #ffa500;
+  }
+  50% {
+    box-shadow: 0 0 15px gold, 0 0 30px #ffcc00, 0 0 45px #ffa500;
+  }
+  100% {
+    box-shadow: 0 0 5px gold, 0 0 10px #ffcc00, 0 0 15px #ffa500;
+  }
+}
+
+.terms-container {
+  position: relative;
+  padding: 25px;
+  border-radius: 15px;
+  background-color: #f0f0f0;
+  color: #000000;
+  font-family: "Kantumruy Pro", sans-serif;
+
+  animation: pulse-gold 2.5s infinite ease-in-out;
+}
+
+/*
+.terms-border-wrapper {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 20px;
+
+  /* Animate gradient background */
+/* background: linear-gradient(270deg, gold, #ffcc00, #ffa500, gold);
+  background-size: 800% 800%;
+  animation: borderGlow 5s linear infinite;
+}
+*/
+/*
+.terms-container {
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  padding: 25px;
+  font-family: "Kantumruy Pro", sans-serif;
+  color: #000000;
+}
+
+@keyframes borderGlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+*/
+/*
+.terms-border-wrapper {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.204);
+  border-radius: 15px; /* Match the container 
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+}*/
+
+/* Border lines that animate around */
+/*
+.border-line {
+  border-radius: 15px; /* Smooth curves */
+/*
+  position: absolute;
+  background: gold;
+  z-index: 2;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+}
+
+.border-line.top {
+  height: 3.5px;
+  width: 0;
+  top: 0;
+  left: 0;
+  animation-name: drawTop;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+.border-line.right {
+  width: 3.5px;
+  height: 0;
+  top: 0;
+  right: 0;
+  animation-name: drawRight;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+.border-line.bottom {
+  height: 3.5px;
+  width: 0;
+  bottom: 0;
+  right: 0;
+  animation-name: drawBottom;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+.border-line.left {
+  width: 3.5px;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  animation-name: drawLeft;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+*/
+/* Keyframes remain the same 
+@keyframes drawTop {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes drawRight {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes drawBottom {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes drawLeft {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+*/
+.terms-border-wrapper {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.204);
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+}
+
+.border-line {
+  border-radius: 15px;
+  position: absolute;
+  background: gold;
+  z-index: 2;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.border-line.top {
+  height: 3.5px;
+  width: 0;
+  top: 0;
+  left: 0;
+  animation-name: drawTop;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+.border-line.right {
+  width: 3.5px;
+  height: 0;
+  top: 0;
+  right: 0;
+  animation-name: drawRight;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+.border-line.bottom {
+  height: 3.5px;
+  width: 0;
+  bottom: 0;
+  right: 0;
+  animation-name: drawBottom;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+.border-line.left {
+  width: 3.5px;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  animation-name: drawLeft;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+@keyframes drawTop {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes drawRight {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes drawBottom {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes drawLeft {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
